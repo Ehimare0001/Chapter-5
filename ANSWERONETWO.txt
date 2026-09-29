@@ -1,0 +1,71 @@
+Exercises
+5.1 Fill in the blanks in each of the following statements:
+a) Typically,__________ statements are used for counter-controlled iteration and __________
+statements for sentinel-controlled iteration.
+ANSWER: for, while
+
+
+b) The do…while statement tests the loop-continuation condition _________ executing
+the loop’s body; therefore, the body always executes at least once.
+ANSWER: after
+
+c) The ___________ statement selects among multiple actions based on the possible values of
+an integer variable or expression, or a String.
+ANSWER: switch
+
+d) The __________ statement, when executed in an iteration statement, skips the remaining
+statements in the loop body and proceeds with the next iteration of the loop.
+ANSWER: continue.
+
+e) The ________ operator (with short-circuit evaluation) can be used to ensure that two
+conditions are both true before choosing a certain path of execution.
+ANSWER: && (conditional AND). 
+
+f) If the loop-continuation condition in a for header is initially , _______ the program
+does not execute the for statement’s body.
+ANSWER: false
+
+g) Methods that perform common tasks and do not require objects are methods.
+ANSWER: static
+
+5.2 State whether each of the following is true or false. If false, explain why.
+a) The default case is required in the switch selection statement.
+ANSWER: False. It is false because the default case is optional. If no default action is needed, 
+then there’s no need
+for a default case. 
+
+b) The break statement is required in the last case of a switch selection statement.
+ANSWER: False. The break statement is not required in the last case in a switch statement.
+The break statement is used to exit the switch statement. 
+
+
+c) The expression ((x > y) && (a < b)) is true if either x > y is true or a < b is true.
+ANSWER: False. Both of the relational expressions must be true for the entire expression to be true 
+when using the && operator. 
+
+d) An expression containing the || operator is true if either or both of its operands are true.
+ANSWER: True. Because either or both of two conditions are true before we
+choose a certain path of execution. 
+
+
+e) The comma (,) formatting flag in a format specifier (e.g., %,20.2f) indicates that a value
+should be output with a grouping separator.
+ANSWER: True.
+
+
+f) To test for a range of values in a switch statement, use a hyphen (–) between the start
+and end values of the range in a case label.
+ANSWER: False. The switch statement does not provide a mechanism for testing ranges of values,
+so every value that must be tested should be listed in a separate case label.
+
+
+g) Listing cases consecutively with no statements between them enables the cases to perform the same set of statements.
+ANSWER: True
+
+
+
+
+
+
+
+

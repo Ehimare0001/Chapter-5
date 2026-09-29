@@ -1,0 +1,49 @@
+5.4 Find the error in each of the following code segments, and explain how to correct it:
+a)
+ i = 1;
+ while (i <= 10);
+ ++i;
+}
+
+ANSWER
+Error: The semicolon after the while header causes an infinite loop, and there’s a missing left brace.
+Correction: Replace the semicolon by a {, or remove both the ; and the }.
+
+ b)
+ for (k = 0.1; k != 1.0; k += 0.1) {
+ System.out.println(k);
+ } 
+ 
+ ANSWER
+ Error: Using a floating-point number to control a for statement may not work, because
+floating-point numbers are represented only approximately by most computers.
+Correction: Use an integer, and perform the proper calculation to get the values you desire, as in:
+
+for (k = 1; k != 10; k++) {
+ System.out.println((double) k / 10);
+ }
+ 
+ 
+C) 
+switch (n) {
+ case 1:
+ System.out.println("The number is 1");
+case 2:
+ System.out.println("The number is 2");
+ break;
+ default:
+System.out.println("The number is not 1 or 2");
+ break;
+ }
+ 
+ ANSWER
+ c) Error: The missing code is the break statement in the statements for the first case.
+Correction: Add a break statement at the end of the statements for the first case. This
+omission is not necessarily an error if you want the statement of case 2: to execute every
+time the case 1: statement executes.
+d) Error: An improper relational operator
+ 
+ d) The following code should print the values 1 to 10:
+ ANSWER
+ Error: An improper relational operator is used in the while’s continuation condition.
+Correction: Use <= rather than <, or change 10 to 11.

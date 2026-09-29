@@ -1,0 +1,18 @@
+5.5. Describe the four basic elements of counter-controlled iteration.
+ANSWER
+1. a control variable (or loop counter)
+2. the initial value of the control variable
+3. the increment by which the control variable is modified each time through the
+loop (also known as each iteration of the loop)
+4. the loop-continuation condition that determines if looping should continue.
+
+
+5.6 Compare and contrast the while and for iteration statements.
+ANSWER
+The while statement can be used to implement any counter-controlled loop.
+The for statement specifies all the details of counter-controlled iteration in its header. 
+
+for statements are used for counter-controlled iteration and while statements for sentinel-controlled iteration. 
+A for’s increment expression acts as if it’s a standalone statement at the end of the for’s body.
+A for statement can count downward by using a negative increment—i.e., a decrement.
+If the loop-continuation condition is initially false, the for statement’s body does not execute. 
